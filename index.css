@@ -1,0 +1,265 @@
+body{
+    padding-top: 100px;
+    padding-left: 130px;
+
+
+}
+
+.header{
+   height: 75px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   border-bottom: solid;
+   border-width: 1px;
+   border-color: rgb(211, 211, 211);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   background-color: white;
+   padding-left: 9px;
+   z-index: 100;
+} 
+
+.left-section{
+    display: flex;
+    align-items: center;
+
+}
+
+.hamburgerlogo{
+    height: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.ytlogo{
+    height: 30px;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+}
+
+.searchbar{
+    height: 35px;
+    flex: 1;
+    font-size: 17px;
+    width: 400px;
+    padding-left: 13px;
+    border-style: solid;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    box-shadow: inset 1px 1px 0.15 rgba(0,0,0,0.5);
+    max-width: 600px;
+
+}
+
+.searchbar::placeholder{
+    font-family: Arial, Roboto;
+    font-size: 16px;
+}
+
+.searchbutton{
+    height: 39px;
+    background-color: #F7F7F7;
+    border-style: solid;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    padding-left: -1px;
+   
+    
+}
+
+.searchlogo{
+    height: 25px;
+}
+
+.micbutton{
+    height: 39px;
+    width: 39px;
+    border-radius: 19.5px;
+    margin-left: 8px;
+    border-style: none;
+    background-color: #F8F8F8;
+    
+}
+
+.miclogo{
+    height:23px;
+    
+}
+
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 24px;
+    margin-left: -20px;
+
+
+   
+}
+
+.addvideo{
+    height: 29px;
+    margin-right: 15px;
+}
+
+.ytapps{
+    height: 29px;
+    margin-right: 15px;
+}
+
+.notification{
+    height: 29px;
+    margin-right: 15px;
+}
+
+.channelav{
+    height: 29px;
+
+}
+
+.sidebar{
+    position: fixed;
+    top:75px;
+    padding-top: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    
+}
+
+.sidebar-elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    height: 35px;
+
+
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97.5px;
+    
+    
+
+}
+
+
+
+.element:hover{
+    cursor: pointer;
+    background-color: rgb(236, 235, 235);
+
+}
+
+.maingrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 50px;
+
+}
+
+.thumbnail{
+    width: 400px;
+
+
+
+
+}
+
+.title{
+    margin-top: 14px;
+    font-weight: 500;
+
+
+}
+
+.youtubername{
+    color: rgb(112, 109, 109);
+    margin-bottom: 0px;
+    margin-top: 8px;
+
+}
+
+.views{
+    color: rgb(112, 109, 109);
+    margin-top: 2px;
+
+
+}
+
+
+.channel-picture{
+    width: 44px;
+    border-radius: 22px;
+
+
+
+
+}
+
+
+.video-details-grid{
+    display: grid;
+    grid-template-columns: 44px 1fr;
+
+
+}
+
+.channel-picture-div{
+    position: relative;
+}
+
+.tooltip{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.932);
+    box-shadow: 2px 2px 2px  rgba(0,0,0,0.2);
+    opacity: 0;
+    bottom: -80px;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    
+}
+
+.channel-picture-div:hover .tooltip{
+    opacity: 1;
+    cursor: pointer;
+    
+}
+
+.flexboxtooltip{
+    display: flex;
+    height: 90px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tooltip-channel-pfp{
+    height: 50px;
+    border-radius: 50%;
+}
+.flexboxtooltip p{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
